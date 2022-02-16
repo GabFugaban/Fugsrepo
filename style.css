@@ -4,13 +4,29 @@
     font-size: 20px;
 }
 
+nav {
+
+}
+
+
+.jumbotron {
+    background-color: yellow;
+}
+
+body {
+    background-color: yellow;
+}
+
 h1 {
-    text-align: center;
+    color: black;
+    text-align: left;
+   /* margin: 20px;
+    border: 10px;*/
 }
 
 div .row {
-    margin:  20px;
-    padding: 20px;
+    /*margin:  20px !important;
+    padding: 40px !important;*/
 }
 
 /*see below - manipulate with "id" selector change font*/
@@ -19,6 +35,14 @@ div .row {
     font-size: 100px;
 }*/
 
-.Project1 {
-    
+#gabimg img {
+    border-radius: 50%;
+    /*margin: 30px;
+    border: 20px;*/
+}
+
+.box {
+     width: 100px;        
+     border: 5px;
+
 }

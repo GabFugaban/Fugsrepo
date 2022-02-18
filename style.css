@@ -1,137 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
-* {
-    margin: 12px;
-    padding:12px;
-
+/** {
+    margin: 0px;
+    padding:0px;
+    background-color: blanchedalmond;
  }
-
-body{
-    background-color: #FFEFD5;
-}
-
-#head1{
-    width:  50%;
-    text-align: center;
-    margin: 25px;
-    padding: 25px
-}
-
-html {
-  scroll-behavior: smooth;
+*/
+img{
+    width: 100%;
 }
 
 
-#about-me{
-    margin: 10px;
-    padding: 10px;
+
+/*Other Navvvv*/
+/*#logo{
+    height: 30px;
+    margin: 12px;
+    float: left;
 }
 
- #IH {
-    margin: 10px;
-    padding: 20px;
-}
-
-#form1{
-    align-content: left;
-}
-
-/*Footer*/
-}
-
-.container{
-    max-width: 1170px !important;
-    margin: auto !important;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#ftr1 ul{
-    list-style:  none;
-}
-
-.footer{
-    background-color: #24262b;
-    box-sizing: border-box;
-    padding: 70px 0;
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
-}
-
-.footer-col{
-    width: 25%;
-    padding: 0 15px;s
-}
-
-.footer-col h4{
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom:  35px;
-    font-weight: 500;
-    position: relative;
-    /*background-color: red;*/
-}
-
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #e91e63;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-
-.footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-}
-
-
-.footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
-    transition: all 0.3s ease;
-
-}
-
-.footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 10px;
-}
-
-.footer-col .social-links a{
+.nav-link{
     display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(255,255,255,0.2);
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all o.5s ease; 
+    margin: 5px;
+    padding: 10px;
+    /*flex-wrap: wrap;*/
 }
 
-.footer-col .social-links a:hover{
-    color: #24262b;
-    background-color: #ffffff;
+/*#navbar{
+    display: flex;
+    text-align: right;
+    display: block;
 }
 
-@media(max-width: 767px){
-    
-.footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-    }
-}
+ul{
+    white-space: nowrap;
+}*/

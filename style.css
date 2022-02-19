@@ -9,16 +9,21 @@
 
 /*Navbar*/
  #logo{
-     height: 30px;
+     height: 40px;
      margin: 12px;
      float: left;
  }
+
+#Nikelabels{
+    color: #FFE4B5;
+} 
 
  .nav-link{
      display: inline-block;
      margin: 5px;
      padding: 10px;
      flex-wrap: wrap;
+     text-decoration:none;
  }
 
  #navbar{
@@ -38,27 +43,39 @@
 #projects{
     margin: 10px !important;
     padding: 10px !important;
+    color: orangered;
+}
+
+h5{
+    color: #f94d00;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+p{
+    color: #FFE4B5;
 }
 
 /*H2 targets -animation*/
 h2{
-    color: black; 
+    color: #FFE4B5; 
     font-family: 'Poppins', sans-serif;
-    font-size: 3em;
-    margin: 0px;
+    font-family: 'Staatliches', cursive;
+    font-size: 5em;
+    margin-top: 50px;
     padding: 0px;
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
-    animation: animtext 1s steps(80, end); 
-    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  /*  animation: animtext 3s steps(80, end); 
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);*/
     text-align: center;
 }
 
 @keyframes animtext { 
 from {
       width: 0;
-     transition: all 0.1s ease-in-out;
+     transition: all 4s ease-in-out;
   } 
 }
 /*End H2 targets*/
@@ -69,8 +86,13 @@ from {
     height: 100vh;
     display: grid;
     align-items: center;
-    background-color: #9B30FF;
+    background-color: #053A61;
     font-family: 'Poppins', sans-serif;
+ }
+
+ #formC{
+    margin-bottom: 60px;
+    margin-top: 50px;
  }
 
 .contact-in{
@@ -144,7 +166,7 @@ from {
     border: none;
     outline: none;
     border-radius: 50px;
-    background: #8e2de2;
+    background: #053A61;
     color: #fff;
     text-transform: uppercase;
     padding: 10px 0;
@@ -159,11 +181,7 @@ body{
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
+
 .container{
     max-width: 1170px;
     margin:auto;

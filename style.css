@@ -4,19 +4,59 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
-    /*background-color: blanchedalmond;*/
  }
+
+ html {
+  scroll-behavior: smooth;
+}
 
 /*Navbar*/
  #logo{
-     height: 40px;
+     height: 30px;
      margin: 12px;
      float: left;
  }
 
-#Nikelabels{
-    color: #FFE4B5;
+.jumbotron{
+    background-color:#053A61;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+    margin-bottom: 20px;
 } 
+
+#intro{
+    color:#FFE4B5;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 3em;
+}
+
+.lead{
+    color:#FFE4B5;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 100px !important;
+}
+
+#ME{
+   /* color: #fe5a1d;*/
+     font-size: 100px !important;
+}
+
+#currentP{
+    font-size: 60px !important;
+    color: #FFE4B5;
+}
+
+
+#blueee{
+    background-color: #fe5a1d;
+}
+
+#AbtMe{
+    color: #053A61 ;
+}
 
  .nav-link{
      display: inline-block;
@@ -33,11 +73,6 @@
 
  }
 
- ul{
-     white-space: nowrap;
-
- }
-
 /*End Nav*/
 
 #projects{
@@ -47,37 +82,38 @@
 }
 
 h5{
-    color: #f94d00;
+    color: #FFE4B5;
     font-family: 'Poppins', sans-serif;
     font-family: 'Staatliches', cursive;
 }
 
 p{
-    color: #FFE4B5;
+    color: white;
 }
 
-/*H2 targets -animation*/
+#meme{
+    border-radius: 100%;
+    height: auto;
+}
+
+#CNTXT{
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+/*H2 targets*/
 h2{
     color: #FFE4B5; 
-    font-family: 'Poppins', sans-serif;
     font-family: 'Staatliches', cursive;
     font-size: 5em;
-    margin-top: 50px;
+    margin-top: 220px;
     padding: 0px;
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
-  /*  animation: animtext 3s steps(80, end); 
-    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);*/
     text-align: center;
 }
 
-@keyframes animtext { 
-from {
-      width: 0;
-     transition: all 4s ease-in-out;
-  } 
-}
 /*End H2 targets*/
 
 /*Form & Map*/
@@ -103,8 +139,7 @@ from {
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 10px;
-    background: #fff;
-    box-shadow: 0px 0px 10px 0px #666;
+    background: #e25822;
 }
 
 .contact-map{
@@ -135,7 +170,7 @@ from {
     height: 40px; 
     color: #000;
     border: 1px solid #bcbcbc;
-    border-radius: 50px;
+    border-radius: 10px;
     outline: none;
     margin-bottom: 20px;
     padding: 15px;
@@ -150,7 +185,7 @@ from {
     height: 130px;
     color: #000;
     border: 1px solid #bcbcbc;
-    border-radius: 50px;
+    border-radius: 10px;
     outline: none;
     margin-bottom: 20px;
     padding: 15px;
@@ -185,47 +220,29 @@ body{
 .container{
     max-width: 1170px;
     margin:auto;
+    margin-top: 30px !important;
 }
-.row{
+/*.row{
     display: flex;
     flex-wrap: wrap;
-}
+}*/
+
 ul{
     list-style: none;
 }
 .footer{
     background-color: #24262b;
-    padding: 70px 0;
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   /*padding: 0 15px;*/
 }
-.footer-col h4{
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative;
-}
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left:0;
-    bottom: -10px;
-    background-color: #e91e63;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
+
 .footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .footer-col ul li a{
     font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
     text-decoration: none;
     font-weight: 300;
     color: #bbbbbb;
@@ -233,7 +250,7 @@ ul{
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color: #ffffff;
+    color: #f94d00;
     padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -250,7 +267,7 @@ ul{
 }
 .footer-col .social-links a:hover{
     color: #24262b;
-    background-color: #ffffff;
+    background-color: #e25822;
 }
 
 /*responsive*/

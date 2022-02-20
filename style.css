@@ -29,7 +29,9 @@
     color:#FFE4B5;
     text-align: center;
     font-family: 'Staatliches', cursive;
-    font-size: 3em;
+    font-size: 5em;
+    margin-top: 90px;
+    margin-bottom: 70px;
 }
 
 .lead{
@@ -49,6 +51,10 @@
     color: #FFE4B5;
 }
 
+#hrp{
+    font-size: 50px !important;
+    color:#FFE4B5 ;
+}
 
 #blueee{
     background-color: #fe5a1d;
@@ -128,7 +134,7 @@ h2{
 
  #formC{
     margin-bottom: 60px;
-    margin-top: 50px;
+    margin-top: 200px;
  }
 
 .contact-in{
@@ -220,7 +226,7 @@ body{
 .container{
     max-width: 1170px;
     margin:auto;
-    margin-top: 30px !important;
+    margin-top: 20px !important;
 }
 /*.row{
     display: flex;
@@ -280,4 +286,8 @@ ul{
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
+}
+
+.jumbotron{
+    height: 100%;
 }
